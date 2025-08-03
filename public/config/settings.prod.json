@@ -1,0 +1,15 @@
+{
+    "apiConfig": {
+        "baseUrl": "",
+        "coreUrl": "",
+        "endpoints": {
+            "auth": {
+                "login": "/huertos/login",
+                "validateToken": "/auth/validate-token",
+                "refreshToken": "/auth/refresh-token",
+                "changePassword": "/auth/change-password",
+                "loginValidate": "/auth/login/validate"
+            }
+        }
+    }
+}
