@@ -1,13 +1,16 @@
 {
   "name": "studypet",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "main": "electron/main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "electron": "electron .",
+    "dev-unix": "vite && electron .",
+    "dev-win32": "vite | electron ."
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.0.0",
